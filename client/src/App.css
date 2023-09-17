@@ -1,0 +1,148 @@
+* {
+  margin: 0 auto;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+*:focus {
+  outline: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.background {
+  background-color: rgb(255, 249, 241);
+}
+/*HEAD*/
+.head-section {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  color: rgb(78, 78, 78);
+}
+
+.head-section h1 {
+  font-size: 50px;
+}
+
+.searching {
+  padding-top: 50px;
+}
+
+.searching-input input {
+  padding: 10px;
+  width: 200px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(57, 57, 57);
+  font-weight: bold;
+}
+
+.button-search {
+  transition: transform 0.3s;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: white;
+  background-color: rgb(223, 127, 0);
+  border: none;
+  font-weight: bold;
+}
+
+.button-search:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+input::placeholder {
+  opacity: 0.2;
+  color: rgb(146, 146, 146);
+}
+
+/*CONTENT*/
+.result-item {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 850px;
+}
+
+/*IMG*/
+
+.content-img-title {
+  padding: 10px;
+  align-items: center;
+}
+.content-img-title img {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+
+  padding: 0px;
+}
+
+/*DETAIL*/
+.place-list {
+  padding: 0px;
+}
+a {
+  color: rgb(87, 87, 87);
+}
+
+a:hover {
+  color: rgb(223, 127, 0);
+}
+
+.content-details {
+  width: 400px;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+
+.content-details h2 {
+  color: rgb(223, 127, 0);
+}
+.content-details p,
+a {
+  color: rgb(109, 109, 109);
+}
+.result-item {
+  transition: transform 0.3s;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 50px;
+
+  border-radius: 10px;
+  box-shadow: 0 6px 8px -2px rgb(107, 107, 107);
+}
+
+.result-item:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  height: 300px;
+}
+
+/*----- Back to top button -----*/
+.back-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* ซ่อนปุ่มเริ่มต้น */
+  padding: 10px 20px;
+  width: 50px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.back-to-top-button:hover {
+  transform: scale(1.1);
+}
